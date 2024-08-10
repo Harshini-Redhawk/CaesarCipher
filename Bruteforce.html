@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruteforce Caesar Cipher</title>
+    <link rel="stylesheet" href="Bruteforcecss.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bruteforce Caesar Cipher</h2>
+        <label for="cipherText">Cipher Text:</label>
+        <input type="text" id="cipherText">
+
+        <label for="moduloValue">Character Set Size (Modulo Value):</label>
+        <input type="number" id="moduloValue" value="62">
+
+        <button onclick="bruteforce()">Bruteforce</button>
+
+        <label for="possibleTexts">Possible Plain Texts:</label>
+        <textarea id="possibleTexts" class="output" readonly></textarea>
+
+            <button onclick="location.href='index.html'">Back</button>
+        
+    </div>
+    <script src="Bruteforcejs.js"></script>
+</body>
+</html>
